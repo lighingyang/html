@@ -1,0 +1,50 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(../images/50.jpg);
+}
+
+#info {
+    width: 900px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+#info #writer{
+    width: 540px;
+}
+#writer p{
+    text-align: center;
+
+}
+#info img{
+    float: left;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    width: 300px;
+    height: 300px;
+}
+td{
+    font-weight: bold;
+}
+#thoughts{
+    float: left;
+    width: 840px;
+    height: 500px;
+    margin: 20px 30px;
+    text-indent: 32px;
+}
+#thoughts p{
+    font-weight: bold;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 32px;
+}
+hr{
+    border-color:black;
+    border: 0px;
+    border-top: 3px;
+}

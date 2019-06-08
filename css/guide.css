@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#Logo {
+	width: 900px;
+	height: 45px;
+	/*margin:上下 左右*/
+	margin: 50px auto;
+	border-radius: 10px;
+	/*html + css3 渐变画图 */
+	background-image: -webkit-linear-gradient(rgba(41, 41, 41, 0.75) 0%, rgba(54, 54, 54, 0.72) 50%, rgba(24, 23, 23, 0.94) 51%);
+	box-shadow: 1px 1px 33px #fff;
+	/*设计阴影的*/
+}
+
+#Logo ul li {
+	width: 126px;
+	height: 45px;
+	list-style: none;
+	float: left;
+	color: white;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 45px;
+	border-right: 2px solid #000;
+}
+#Logo ul li a {
+	color: white;
+	/* #fff */
+	font-size: 18px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+
+#Logo ul li:hover {
+	background: rgba(10, 5, 5, 0.45);
+}
+
+#Logo ul li ul li {
+	border: none;
+	border-top: 1px solid #989898;
+	background: rgba(10, 5, 5, 0.45);
+	/*颜色透明度 */
+	border-radius: 10px;
+}
+
+#Logo ul li ul {
+	display: none;
+	/*不显示*/
+}
+
+#Logo ul li ul li:hover {
+	background: rgba(10, 5, 5, 0.8);
+	/*颜色透明度 */
+	border-radius: 10px;
+}
+
+#Logo ul li:hover ul {
+	display: block;
+}
